@@ -3,6 +3,7 @@ import { ShieldCheck, BarChart3 } from 'lucide-react';
 
 const navigation = [
   { name: 'Overview', to: '/' },
+  { name: 'Patient App', to: '/app' },
   { name: 'Dashboard', to: '/dashboard' },
 ];
 
