@@ -38,10 +38,10 @@ const App = () => {
             </NavLink>
           ))}
         </nav>
-        <a href="/dashboard" className="btn-secondary hidden items-center gap-2 md:inline-flex">
+        <NavLink to="/dashboard" className="btn-secondary hidden items-center gap-2 md:inline-flex">
           <BarChart3 className="h-4 w-4" />
           Dashboard
-        </a>
+        </NavLink>
       </header>
       <main className="relative z-10 mx-auto w-full max-w-6xl flex-1 px-6 pb-16">
         <Outlet />
