@@ -11,6 +11,7 @@ import './index.css';
 import App from './routes/App.jsx';
 import Landing from './routes/Landing.jsx';
 import Dashboard from './routes/Dashboard.jsx';
+import PatientApp from './routes/PatientApp.jsx';
 
 const ErrorBoundary = () => {
   const error = useRouteError();
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
+      },
+      {
+        path: 'app',
+        element: <PatientApp />,
       },
       {
         path: 'dashboard',

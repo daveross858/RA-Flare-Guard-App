@@ -49,6 +49,7 @@ ra-flare-guard-react-vite/
 
 - **Landing page** with hero mockup, feature highlights, and Supabase-backed waitlist form.
 - **Waitlist form** stores email, RA goal (`note`), source, and UTM metadata inside the `waitlist` table.
+- **Patient companion** at `/app` that demonstrates onboarding, daily risk monitoring, trigger detection, and clinician-ready weekly summaries.
 - **Founder dashboard** at `/dashboard` that visualizes daily signups, source attribution, and conversion metrics using Recharts.
 - **Responsive design** styled with Tailwind CSS and Lucide icons.
 
@@ -73,3 +74,7 @@ The app expects a `waitlist` table with the following columns:
 - Automate onboarding emails via Postmark/Resend.
 - Export waitlist data to CSV for investor updates.
 - Expand the intake form to capture additional health goals.
+
+## Product planning
+
+- Review the [RA Flare-Guard AI Flare Coach outline](docs/app-outline.md) for a detailed product vision covering user features, data model, AI system design, and roadmap priorities.
